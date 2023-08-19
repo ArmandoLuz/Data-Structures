@@ -1,0 +1,32 @@
+{
+    "files.associations": {
+        "*.schema": "json",
+        "unordered_map": "c",
+        "bit": "c",
+        "*.tcc": "c",
+        "functional": "c",
+        "string_view": "c",
+        "random": "c",
+        "limits": "c",
+        "numeric": "c",
+        "algorithm": "c",
+        "array": "c",
+        "atomic": "c",
+        "string": "c",
+        "vector": "c",
+        "memory": "c",
+        "memory_resource": "c",
+        "system_error": "c",
+        "tuple": "c",
+        "type_traits": "c",
+        "cmath": "c",
+        "ostream": "c",
+        "stdexcept": "c",
+        "streambuf": "c",
+        "utility": "c",
+        "typeinfo": "c",
+        "binary_search_tree.h": "c",
+        "common.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}

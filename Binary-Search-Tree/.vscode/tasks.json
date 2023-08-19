@@ -1,0 +1,25 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "build",
+            "command": "meson",
+            "args": [
+                "build"
+            ],
+        },
+        {
+            "type": "shell",
+            "label": "run",
+            "command": "ninja",
+            "args": [
+                "-C",
+                "build",
+            ],
+            "dependsOn": [
+                "build"
+            ],
+        },
+    ],
+    "version": "2.0.0"
+}
